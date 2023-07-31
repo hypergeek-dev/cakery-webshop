@@ -49,17 +49,15 @@ Wireframes have been created and used during the design process to establish the
 
 Home Page | About Page
 --- | ---
-<img src="./wireframes/desktop_home.png" width="400"> | <img src="./wireframes/desktop_about.png" width="400">
+<img src="assets/images/wireframes/desktop_home.png" width="400"> | <img src="assets/images/wireframes/desktop_about.png" width="400">
 
 Products Page | Contact Page
 --- | ---
-<img src="./wireframes/desktop_products.png" width="400"> | <img src="./wireframes/desktop_contact.png" width="400">
+<img src="assets/images/wireframes/desktop_products.png" width="400"> | <img src="assets/images/wireframes/desktop_contact.png" width="400">
 
 #### Mobile Wireframes
 
 Home Page | About Page | Products Page | Contact Page
 --- | --- | --- | ---
-<img src="./wireframes/mobile_home.png" width="150"> | <img src="./wireframes/mobile_about.png" width="150"> | <img src="./wireframes/mobile_products.png" width="150"> | <img src="./wireframes/mobile_contact.png" width="150">
+<img src="assets/images/wireframes/mobile_home.png" width="150"> | <img src="assets/images/wireframes/mobile_about.png" width="150"> | <img src="assets/images/wireframes/mobile_products.png" width="150"> | <img src="assets/images/wireframes/mobile_contact.png" width="150">
 
-
-... (Rest of the sections) ...
