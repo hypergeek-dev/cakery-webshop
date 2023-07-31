@@ -1,6 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Happy+Monkey&family=Montserrat&display=swap');
 
 body, ul {
     margin: 0;
@@ -9,18 +7,23 @@ body, ul {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f2e2d8;
     width: 100vw;
-    height:20vh;
+    height: 15vh;
 }
 
 h1 {
-    font-weight:900;
-    font-size:xx-large;
+    font-weight: 900;
+    font-size: xx-large;
     font-family: 'Amatic SC', cursive;
 }
 
@@ -32,28 +35,25 @@ h1 {
 
 #logo {
     position: absolute;
-    top:2vh;
+    top: 1.5vh;
     left: 2vw;
     background-image: url("/assets/images/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-width: 13vh;
-    height: 20vh;
+    height: 15vh;
 }
-
-
-
 
 #mainListDiv {
     display: flex;
     justify-content: center;
-    margin-top: 0x; }
+    margin-top: 0;
+}
 
 .navlinks {
     display: flex;
     list-style: none;
-padding:1vh;
-
+    padding: 1vh;
 }
 
 .navlinks li {
@@ -70,13 +70,71 @@ padding:1vh;
 }
 
 hr {
-    margin:0;
-   
-        border: none; /* Remove the default border */
-        height: 1px; /* Define the thickness of your line */
-        background-color: #999; /* Color of the line */
-        box-shadow: 0px 1px 2px #888888; /* Horizontal offset, Vertical offset, blur radius, and color */
-    
-    
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #999;
+    box-shadow: 0px 1px 2px #888888;
 }
 
+#hero {
+    background-image: url("/assets/images/hero_cake.webp");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#half-divs {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#left-div, #right-div {
+    flex: 1 1 50%;
+    height: 20vh;
+    padding: 0.5rem 1em;
+}
+
+#left-div p {
+    font-family: 'Happy Monkey', cursive;
+    font-size: smaller;
+    text-align: center;
+    color: #ff6b6b;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+#right-div {
+    flex: 1 1 50%;
+    height: 25vh;
+
+}
+
+#right-div img {
+    padding: 1rem 1rem 0 1rem;
+    width: 80%;  /* This will make the image width same as the div width */
+    height: auto; /* This will maintain the aspect ratio of the image */
+
+}
+
+#right-div p {
+    font-size:x-small;
+    margin-top:0;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+footer a {
+    text-decoration: none;
+    color: #57340a;
+    padding: 0.5rem;
+
+}
+
+footer {
+    margin-top:25%; 
+}
