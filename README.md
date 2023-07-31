@@ -49,13 +49,9 @@ Products Page | Contact Page
 
 #### Mobile Wireframes
 
-Home Page | About Page
+Home Page | About Page | Products Page | Contact Page
 --- | ---
-<img src="assets/images/wireframes/mobile_home.png" width="200"> | <img src="assets/images/wireframes/mobile_about.png" width="200">
-
-Products Page | Contact Page
---- | ---
-<img src="assets/images/wireframes/mobile_products.png" width="200"> | <img src="assets/images/wireframes/mobile_contact.png" width="200">
+<img src="assets/images/wireframes/mobile_home.png" width="200"> | <img src="assets/images/wireframes/mobile_about.png" width="200"><img src="assets/images/wireframes/mobile_products.png" width="200"> | <img src="assets/images/wireframes/mobile_contact.png" width="200">
 
 ### Local Setup
 
