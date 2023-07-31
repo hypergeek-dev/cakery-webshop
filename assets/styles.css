@@ -1,16 +1,27 @@
-body, h1, ul {
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&display=swap');
+
+
+body, ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 100%;
+    background-color: #f2e2d8;
+    width: 100vw;
+    height:20vh;
+}
+
+h1 {
+    font-weight:900;
+    font-size:xx-large;
+    font-family: 'Amatic SC', cursive;
 }
 
 .top-line {
@@ -21,24 +32,27 @@ header {
 
 #logo {
     position: absolute;
-    left: 10px;
+    top:2vh;
+    left: 2vw;
     background-image: url("/assets/images/logo.png");
-    background-size: cover; 
-    width: 50px;  
-    height: 50px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 13vh;
+    height: 20vh;
 }
+
+
 
 
 #mainListDiv {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-}
+    margin-top: 0x; }
 
 .navlinks {
     display: flex;
     list-style: none;
-
+padding:1vh;
 
 }
 
@@ -54,3 +68,15 @@ header {
 .navlinks a:hover {
     color: inherit;
 }
+
+hr {
+    margin:0;
+   
+        border: none; /* Remove the default border */
+        height: 1px; /* Define the thickness of your line */
+        background-color: #999; /* Color of the line */
+        box-shadow: 0px 1px 2px #888888; /* Horizontal offset, Vertical offset, blur radius, and color */
+    
+    
+}
+
