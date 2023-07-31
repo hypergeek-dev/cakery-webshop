@@ -37,26 +37,29 @@ The Cakery Webshop site is developed with responsiveness and user-friendliness i
 
 Wireframes have been created and used during the design process to establish the basic structure of the site before visual design and content creation. Wireframes are designed with a mobile-first approach but also consider the desktop view to ensure a seamless experience across all devices.
 
+## Development
+
+The Cakery Webshop site is developed with responsiveness and user-friendliness in mind. It uses HTML, CSS, and JavaScript for front-end development and a secure server-side language for back-end development.
+
+### Wireframes
+
+Wireframes have been created and used during the design process to establish the basic structure of the site before visual design and content creation. Wireframes are designed with a mobile-first approach but also consider the desktop view to ensure a seamless experience across all devices.
+
 #### Desktop Wireframes
 
 Home Page | About Page
 --- | ---
-<img src="assets/images/wireframes/desktop_home.png" width="400"> | <img src="assets/images/wireframes/desktop_about.png" width="400">
+<img src="./wireframes/desktop_home.png" width="400"> | <img src="./wireframes/desktop_about.png" width="400">
 
 Products Page | Contact Page
 --- | ---
-<img src="assets/images/wireframes/desktop_products.png" width="400"> | <img src="assets/images/wireframes/desktop_contact.png" width="400">
+<img src="./wireframes/desktop_products.png" width="400"> | <img src="./wireframes/desktop_contact.png" width="400">
 
 #### Mobile Wireframes
 
-Home Page | About Page
---- | ---
-<img src="assets/images/wireframes/mobile_home.png" width="200"> | <img src="assets/images/wireframes/mobile_about.png" width="200">
+Home Page | About Page | Products Page | Contact Page
+--- | --- | --- | ---
+<img src="./wireframes/mobile_home.png" width="150"> | <img src="./wireframes/mobile_about.png" width="150"> | <img src="./wireframes/mobile_products.png" width="150"> | <img src="./wireframes/mobile_contact.png" width="150">
 
-Products Page | Contact Page
---- | ---
-<img src="assets/images/wireframes/mobile_products.png" width="200"> | <img src="assets/images/wireframes/mobile_contact.png" width="200">
-
-### Local Setup
 
 ... (Rest of the sections) ...
