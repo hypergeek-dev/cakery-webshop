@@ -1,4 +1,4 @@
-body, ul {
+body, h1, ul {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,24 +13,37 @@ header {
     width: 100%;
 }
 
-#logo {
-    align-self: flex-start;
+.top-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+#logo {
+    position: absolute;
+    left: 10px;
+    background-image: url("/assets/images/logo.png");
+    background-size: cover; 
+    width: 50px;  
+    height: 50px; 
+}
+
 
 #mainListDiv {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .navlinks {
     display: flex;
     list-style: none;
+
+
 }
 
 .navlinks li {
-    padding: 10px;
-    margin-top: 5px;
-    
+    margin-right: 10px;
 }
 
 .navlinks a {
