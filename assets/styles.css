@@ -23,14 +23,14 @@ header {
     height: 14vh;
 }
 #shopping-cart {
-    position: fixed; /* Fixed positioning allows the icon to stay in place even when scrolling */
-    top: 10px; /* Offset from the top */
-    right: 10px; /* Offset from the right */
-    padding: 10px; /* Add some padding around the icon */
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px;
   }
   
   #shopping-cart i {
-    font-size: 24px; /* Adjust the size of the icon */
+    font-size: 24px; 
   }
   
 h1 {
@@ -49,7 +49,7 @@ h1 {
     position: absolute;
     top: 1.5vh;
     left: 2vw;
-    background-image: url("/assets/images/logo.png");
+    background-image: url("assets/images/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-width: 13vh;
@@ -104,10 +104,10 @@ hr {
 
   #slogan {
     display: grid;
-    place-items: center; /* centers content both vertically and horizontally */
+    place-items: center; 
     font-family: 'Cookie', cursive;
     font-size:x-large;
-    text-align: center; /* For browsers that do not support Grid */
+    text-align: center; 
    
   }
 
@@ -153,15 +153,14 @@ hr {
   
 #right_div_img img {
     display: block;
-    margin: 0 auto; /* Center image horizontally */
-    max-width: 80%; /* Limit the image width to behave like a thumbnail */
+    margin: 0 auto;
+    max-width: 80%; 
 
     width: auto; 
     height: auto;
-    border: 1px solid #ddd; /* Add a border */
-    border-radius: 4px;  /* Add rounded corners */
-    padding: 5px; /* Add some padding */
-
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px;
 }
 
 #right_div_img p {
