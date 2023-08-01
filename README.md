@@ -22,14 +22,6 @@ The Cakery Webshop site is developed with responsiveness and user-friendliness i
 
 Wireframes have been created and used during the design process to establish the basic structure of the site before visual design and content creation. Wireframes are designed with a mobile-first approach but also consider the desktop view to ensure a seamless experience across all devices.
 
-## Development
-
-The Cakery Webshop site is developed with responsiveness and user-friendliness in mind. It uses HTML, CSS, and JavaScript for front-end development and a secure server-side language for back-end development.
-
-### Wireframes
-
-Wireframes have been created and used during the design process to establish the basic structure of the site before visual design and content creation. Wireframes are designed with a mobile-first approach but also consider the desktop view to ensure a seamless experience across all devices.
-
 #### Desktop Wireframes
 
 Home Page | About Page
