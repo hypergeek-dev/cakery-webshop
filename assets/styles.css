@@ -94,7 +94,7 @@ hr {
 }
 
 #hero {
-    background-image: url("/assets/images/hero_cake.webp");
+    background-image: url("assets/images/hero_cake.webp");
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
