@@ -73,6 +73,7 @@ header h1 {
     display: flex;
     list-style: none;
     padding: 1vh;
+
 }
 
 .navlinks li {
@@ -84,11 +85,12 @@ header h1 {
     color: inherit;
     font-size: x-small;
     display: inline-block;
+
 }
 
 .navlink-item:hover {
     text-shadow: 2px 2px 4px #000000;
-
+ 
 }
 
 hr {
@@ -198,8 +200,11 @@ ul {
     z-index: 1;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 0 1px 1px 1px 1px solid rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, 0.45);
+ 
+  
+    backdrop-filter: blur(15px);
 }
 
 .dropdown .submenu a {
@@ -213,9 +218,7 @@ ul {
 .last_link{
 border-top: 1px solid #ccc; 
 }
-.dropdown .submenu a:hover {
-    text-shadow: 2px 2px 4px #000000;
-}
+
 
 .dropdown:hover .submenu {
     display: block;
