@@ -87,7 +87,7 @@ header h1 {
 }
 
 .navlink-item:hover {
-    background-color:#f2e2d8;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -214,7 +214,7 @@ ul {
 border-top: 1px solid #ccc; 
 }
 .dropdown .submenu a:hover {
-    background-color:#f2e2d8;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .dropdown:hover .submenu {
