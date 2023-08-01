@@ -1,77 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Delicious Wedding Cakes and Cupcakes | Your Cakery Name</title>
-  <meta name="description"
-    content="Discover a variety of delicious and beautiful wedding cakes and cupcakes at Your Cakery Name. We provide quality bakery items for every occasion.">
-  <meta name="keywords" content="Designer Cakes, Cupcakes, Bakery, Online">
-  <link rel="stylesheet" href="assets/styles.css">
-  <link rel="stylesheet" href="assets/media_queries.css">
-  <script src="assets/main.js"></script>
-</head>
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Happy+Monkey&family=Montserrat&display=swap');
 
-<body>
-  <header>
-    <div id="shopping-cart">
-      <i class="fas fa-shopping-cart"></i>
-    </div>
-    <nav class="nav">
-        <div class="top-line">
-            <div id="logo"></div>
-            <h1>My Cakery shop</h1>
-        </div>
+body, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: stretch; /* or flex-end */
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2e2d8;
+    width: 100vw;
+    height: 14vh;
+}
+#shopping-cart {
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px;
+  }
   
-</header>
-<section class="main">
-<hr>
-<div id="mainListDiv" class="main_list">
-    <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-<hr>
-<div id="hero"></div>
-<div id="slogan">
-  <p>Online Sweetness, Baked to Perfection!</p>
-</div>
-<div id="half-divs">
-  <div id="left-div">
-    <p>All of our scrumptious goodies hit the road within 24 hours.</p>
-  </div>
-  <div id="right-div">
-    <div id="right_div_img">
-      <img src="assets/images/baking_girl.webp" alt="baking girl">
-      <p>Main ingredient is love</p>
-    </div>
-  </div>
-</div>
+  #shopping-cart i {
+    font-size: 24px; 
+  }
+  
+h1 {
+    font-weight: 900;
+    font-size: 2.4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.top-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 1.5vh;
+    left: 2vw;
+    background-image: url("/assets/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 13vh;
+    height: 15vh;
+}
+.main {
+    max-height:80vh;
+}
+#mainListDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    padding: 1vh;
+}
+
+.navlinks li {
+    margin-right: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-small;
+}
+
+.navlinks a:hover {
+    color: inherit;
+    font-size:small;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #999;
+    box-shadow: 0px 1px 2px #888888;
+}
+
+#hero {
+    background-image: url("/assets/images/hero_cake.webp");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
-</section>
-  <footer>
-    <div class="contact">
-      <a href="http://your-snapchat-url" target="_blank" rel="noopener" aria-label="Follow us on Snapchat">
-        <i class="icon fab custom_icon fa-snapchat p-3"></i>
-      </a>
-      <a href="http://your-twitter-url" target="_blank" rel="noopener" aria-label="Follow us on Twitter">
-        <i class="icon fab custom_icon fa-twitter p-3"></i>
-      </a>
-      <a href="mailto:example@gmail.com" aria-label="Send us an email">
-        <i class="icon fas custom_icon fa-envelope p-3"></i>
-      </a>
-    </div>
-</footer>
+  #slogan {
+    display: grid;
+    place-items: center; 
+    font-family: 'Cookie', cursive;
+    font-size:x-large;
+    text-align: center; 
+   
+  }
 
-<script src="https://kit.fontawesome.com/c4df5125eb.js" crossorigin="anonymous"></script>
+  #slogan p {
+    margin:0;
+  }
 
-</body>
+  
 
-</html>
+  #half-divs {
+    display: flex;
+    
+  }
+  
+  #left-div, #right-div {
+    flex: 1;
+    height: 20vh;
+    padding: 0.5rem;
+    flex-wrap: nowrap;
+
+  }
+  
+
+#left-div p {
+    font-family: 'Happy Monkey', cursive;
+    font-size: smaller;
+    text-align: center;
+    color: #ff6b6b;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 1rem;
+    background-color: antiquewhite;
+   
+    
+}
+
+#right_div_img {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+ 
+    
+}
+  
+#right_div_img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%; 
+
+    width: auto; 
+    height: auto;
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px;
+}
+
+#right_div_img p {
+    margin: 0;
+    font-size:x-small;
+    
+}
+
+  
+.main {
+    flex-grow: 1;
+}
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b52749;
+    padding: 0.1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+padding:0.5rem;
+}
