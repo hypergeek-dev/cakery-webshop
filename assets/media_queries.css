@@ -59,6 +59,11 @@
 
 
 @media only screen and (min-width: 1201px) {
+
+
+    header h1 {
+        margin-top:0;
+    }
     footer {
 
         padding: 0;
@@ -74,9 +79,12 @@
     .custom_icon {
         font-size: 200%
     }
-
+    #right_div_img
+    {
+        margin-top:0;
+    }
     #right_div_img img {
-        max-height: 350px;
+        max-height: 290px;
     }
 
     #left-div p {
