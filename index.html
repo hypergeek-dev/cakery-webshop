@@ -10,17 +10,21 @@
     content="Discover a variety of delicious and beautiful wedding cakes and cupcakes at Your Cakery Name. We provide quality bakery items for every occasion.">
   <meta name="keywords" content="Designer Cakes, Cupcakes, Bakery, Online">
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/media_queries.css">
   <script src="assets/main.js"></script>
 </head>
 
 <body>
   <header>
+    <div id="shopping-cart">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
     <nav class="nav">
         <div class="top-line">
             <div id="logo"></div>
             <h1>My Cakery shop</h1>
         </div>
-    </nav>
+  
 </header>
 <section class="main">
 <hr>
@@ -31,32 +35,37 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
+  </nav>
 </div>
 <hr>
 <div id="hero"></div>
+<div id="slogan">
+  <p>Online Sweetness, Baked to Perfection!</p>
+</div>
 <div id="half-divs">
   <div id="left-div">
-<p>All of our scrumptious goodies hit the road within 24 hours.</p>
-
-
+    <p>All of our scrumptious goodies hit the road within 24 hours.</p>
   </div>
   <div id="right-div">
-    <img src="/assets/images/baking_girl.webp" alt="baking girl">
-    <p>Main ingredient is love</p>
-
+    <div id="right_div_img">
+      <img src="/assets/images/baking_girl.webp" alt="baking girl">
+      <p>Main ingredient is love</p>
+    </div>
   </div>
 </div>
-</main>
+
+
+</section>
   <footer>
     <div class="contact">
       <a href="http://your-snapchat-url" target="_blank" rel="noopener" aria-label="Follow us on Snapchat">
-        <i class="icon fab fa-snapchat p-3"></i>
+        <i class="icon fab custom_icon fa-snapchat p-3"></i>
       </a>
       <a href="http://your-twitter-url" target="_blank" rel="noopener" aria-label="Follow us on Twitter">
-        <i class="icon fab fa-twitter p-3"></i>
+        <i class="icon fab custom_icon fa-twitter p-3"></i>
       </a>
       <a href="mailto:example@gmail.com" aria-label="Send us an email">
-        <i class="icon fas fa-envelope p-3"></i>
+        <i class="icon fas custom_icon fa-envelope p-3"></i>
       </a>
     </div>
 </footer>
