@@ -38,6 +38,10 @@
     #mainListDiv a {
         font-size: larger;
     }
+    .navlink-item,
+    .navlinks span {
+        font-size: larger;
+    }
 
     #hero {
 
