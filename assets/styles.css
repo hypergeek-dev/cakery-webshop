@@ -76,7 +76,7 @@ header h1 {
 }
 
 .navlinks li {
-    margin-right: 10px;
+    padding :5px;
 }
 
 .navlink-item {
@@ -87,8 +87,8 @@ header h1 {
 }
 
 .navlink-item:hover {
-    color: inherit;
-    font-size: small;
+    background-color:#f2e2d8;
+
 }
 
 hr {
@@ -193,6 +193,8 @@ ul {
 .dropdown .submenu {
     display: none;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     margin: 0;
     padding: 0;
@@ -205,14 +207,18 @@ ul {
     text-decoration: none;
     display: block;
     color: #333; 
-    padding: 0; 
-    border-bottom: 1px solid #ccc; 
+
 }
 
+.last_link{
+border-top: 1px solid #ccc; 
+}
 .dropdown .submenu a:hover {
-    background-color: #ddd; 
+    background-color:#f2e2d8;
 }
 
 .dropdown:hover .submenu {
     display: block;
 }
+
+
