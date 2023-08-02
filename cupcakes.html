@@ -11,6 +11,34 @@
   <meta name="keywords" content="Designer Cakes, Cupcakes, Bakery, Online">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/media_queries.css">
+  <style>
+    /* Add this CSS style for the polaroid frame */
+    .polaroid {
+      display: inline-block;
+      border: 5px solid #f7f7f7;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      max-width: 30%; /* Adjust the initial width */
+    }
+
+    .polaroid img {
+      max-width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+      .polaroid {
+        max-width: 45%; /* Adjust the width for tablet screens */
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .polaroid {
+        max-width: 90%; /* Adjust the width for mobile screens */
+      }
+    }
+  </style>
   <script src="assets/main.js"></script>
 </head>
 
@@ -20,33 +48,59 @@
       <i class="fas fa-shopping-cart"></i>
     </div>
    
-        <div class="top-line">
-            <div id="logo"></div>
-            <h1>My Cakery shop</h1>
-        </div>
-      </header>
+    <div class="top-line">
+      <div id="logo"></div>
+      <h1>My Cakery shop</h1>
+    </div>
+  </header>
 
-        <div id="mainListDiv" class="main_list">
-          <ul class="navlinks">
-              <li><a class="navlink-item" href="index.html">Home</a></li>
-              <li class="dropdown">
-                  <span class="navlink-item">Products</span>
-                  <ul class="submenu">
-                      <li><a class="navlink-item" href="cupcakes.html">Cupcakes</a></li>
-                      <li><a class="navlink-item last_link" href="wedding-cakes.html">Wedding cakes</a></li>
-                  </ul>
-              </li>
-              <li><a class="navlink-item" href="about.html">About</a></li>
-              <li><a class="navlink-item" href="contact.html">Contact</a></li>
-          </ul>
+  <div id="mainListDiv" class="main_list">
+    <ul class="navlinks">
+      <li><a class="navlink-item" href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="navlink-item">Products</span>
+        <ul class="submenu">
+          <li><a class="navlink-item" href="cupcakes.html">Cupcakes</a></li>
+          <li><a class="navlink-item last_link" href="wedding-cakes.html">Wedding cakes</a></li>
+        </ul>
+      </li>
+      <li><a class="navlink-item" href="about.html">About</a></li>
+      <li><a class="navlink-item" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <section class="main">
+    <div class="cake-container">
+      <!-- Polaroid Frame for Cake Images -->
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/1_cupcake.webp.webp" alt="Cake 1">
       </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/2_cupcake.webp.webp" alt="Cake 2">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/3_cupcake.webp.webp" alt="Cake 3">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/4_cupcake.webp.webp" alt="Cake 4">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/5_cupcake.webp.webp" alt="Cake 5">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/6_cupcake.webp.webp" alt="Cake 6">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/7_cupcake.webp.webp" alt="Cake 7">
+      </div>
+      <div class="polaroid">
+        <img src="https://binarymonk.online/cupcakes/8_cupcake.webp.webp" alt="Cake 8">
+      </div>
+    </div>
+  </section>
 
-<hr>
-
-<section class="main">
-
-
-</section>
   <footer>
     <div class="contact">
       <a href="http://your-snapchat-url" target="_blank" rel="noopener" aria-label="Follow us on Snapchat">
@@ -59,9 +113,9 @@
         <i class="icon fas custom_icon fa-envelope p-3"></i>
       </a>
     </div>
-</footer>
+  </footer>
 
-<script src="https://kit.fontawesome.com/c4df5125eb.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c4df5125eb.js" crossorigin="anonymous"></script>
 
 </body>
 
