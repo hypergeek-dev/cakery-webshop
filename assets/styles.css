@@ -247,29 +247,29 @@ border-top: 1px solid #ccc;
   }
   
   .polaroid img {
-    width:80%;/* Your existing styles */
+    width:80%;
     height:80%;
   }
 
   .caption {
-    height: 33%; /* Allocate 33% of the space to the text */
+    height: 33%; 
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0 5px; /* Provide some padding on the sides */
+    padding: 0 5px; 
   }
   
   @media screen and (min-width: 1201px) {
     .polaroid {
-      /* Your existing styles */
+  
     }
   }
   
   @media screen and (min-width: 769px) {
     .polaroid {
-      width: calc(20% - 4rem); /* width adjusted to make room for margins */
+      width: calc(20% - 4rem); 
       margin: 2rem;
       padding: 10px;
     }
@@ -277,7 +277,7 @@ border-top: 1px solid #ccc;
   
   @media screen and (min-width: 480px) {
     .polaroid {
-      width: 100%; /* Make the item full width on smaller screens */
+      width: 100%; 
     }
   }
   
