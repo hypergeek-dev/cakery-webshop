@@ -5,13 +5,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Delicious Wedding Cakes and Cupcakes | Your Cakery Name</title>
-  <meta name="description"
-    content="Discover a variety of delicious and beautiful wedding cakes and cupcakes at Your Cakery Name. We provide quality bakery items for every occasion.">
+  <title>Delicious Wedding Cakes and Cupcakes | SugarCrumb Cakery</title>
+  <meta name="description" content="Discover a variety of delicious and beautiful wedding cakes and cupcakes at SugarCrumb Cakery. We provide quality bakery items for every occasion.">
   <meta name="keywords" content="Designer Cakes, Cupcakes, Bakery, Online">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/media_queries.css">
   <script src="assets/main.js"></script>
+
+  <style>
+    .headline_wrapper{
+     height:10vh;
+     margin-top: auto;
+    }
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem; 
+      flex-wrap: wrap;
+      padding-top: 0;
+    }
+
+    .shop-image, .about-text {
+      flex: 1 1 300px;
+      max-width: 500px;
+    }
+
+    .about-text {
+      text-align: left; 
+    }
+    .shop-image img {
+      max-width: 100%;
+      height: auto;
+      margin-top:80vh;
+      margin-bottom:0;
+    }
+    .headline_wrapper
+    {
+      width:100%;
+      align-self: start;
+      height:10vh;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,34 +62,42 @@
     <div id="shopping-cart">
       <i class="fas fa-shopping-cart"></i>
     </div>
+    <div class="top-line">
+      <div id="logo"></div>
+      <h1>My Cakery shop</h1>
+    </div>
+  </header>
+
+  <div id="mainListDiv" class="main_list">
+    <ul class="navlinks">
+      <li><a class="navlink-item" href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="navlink-item">Products</span>
+        <ul class="submenu">
+          <li><a class="navlink-item" href="cupcakes.html">Cupcakes</a></li>
+          <li><a class="navlink-item last_link" href="wedding-cakes.html">Wedding cakes</a></li>
+        </ul>
+      </li>
+      <li><a class="navlink-item" href="about.html">About</a></li>
+      <li><a class="navlink-item" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <section class="main">
+    <div class="about-section">
    
-        <div class="top-line">
-            <div id="logo"></div>
-            <h1>My Cakery shop</h1>
-        </div>
-      </header>
-
-        <div id="mainListDiv" class="main_list">
-          <ul class="navlinks">
-              <li><a class="navlink-item" href="index.html">Home</a></li>
-              <li class="dropdown">
-                  <span class="navlink-item">Products</span>
-                  <ul class="submenu">
-                      <li><a class="navlink-item" href="cupcakes.html">Cupcakes</a></li>
-                      <li><a class="navlink-item last_link" href="wedding-cakes.html">Wedding cakes</a></li>
-                  </ul>
-              </li>
-              <li><a class="navlink-item" href="about.html">About</a></li>
-              <li><a class="navlink-item" href="contact.html">Contact</a></li>
-          </ul>
+      <h1>Our story</h1>
+      <div class="shop-image">
+        <img src="https://www.binarymonk.online/shop.webp" alt="Shop Image">
       </div>
+      <div class="about-text">
+        <p>Born in a modest city kitchen in 2019, our founder's passion for baking ignited SugarCrumb Cakery's journey. The delicious aroma of cakes and pastries stirred a community, transforming a solitary hobby into a shared celebration of flavor.<br><br>Our offerings were more than sweet treats; they were the embodiment of warmth, passion, and shared experiences. As orders poured in, we outgrew our humble kitchen. In 2021, we transitioned to a professional setup, assembled our dedicated team, and truly embraced our identity as SugarCrumb Cakery. <br><br>Today, we're a beloved household name, delivering quality and creativity in every bite. Even as we flourish, our essence remains - a team passionate about baking joy-filled treats. At SugarCrumb Cakery, we serve memories, crafted with love.</p>
+      </div>
+    </div>
+  </section>
 
-<hr>
-
-<section class="main">
-
-
-</section>
   <footer>
     <div class="contact">
       <a href="http://your-snapchat-url" target="_blank" rel="noopener" aria-label="Follow us on Snapchat">
@@ -59,9 +110,9 @@
         <i class="icon fas custom_icon fa-envelope p-3"></i>
       </a>
     </div>
-</footer>
+  </footer>
 
-<script src="https://kit.fontawesome.com/c4df5125eb.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c4df5125eb.js" crossorigin="anonymous"></script>
 
 </body>
 
