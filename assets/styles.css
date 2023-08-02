@@ -174,6 +174,8 @@ footer {
     width: 100%;
     background-color: #b52749;
     padding: 0.1rem;
+    
+    
 }
 
 footer a {
@@ -289,6 +291,32 @@ ul {
     width: 80%;
     height: 45%; 
 }
+.about-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-flex-item {
+    width: 45%;
+}
+
+.about-flex-item .about-address,
+.about-flex-item .about-newsletter,
+.about-flex-item .about-maps,
+.about-flex-item .about-slogan {
+    margin-bottom: 20px;
+}
+
+.about-newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-newsletter input[type="email"] {
+    margin-bottom: 10px;
+}
+
+
 @media only screen and (min-width: 1200px) {
     .polaroid {
 padding:1rem;
