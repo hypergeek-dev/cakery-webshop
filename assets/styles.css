@@ -289,3 +289,10 @@ ul {
     width: 80%;
     height: 45%; 
 }
+@media only screen and (min-width: 1200px) {
+    .polaroid {
+padding:1rem;
+    
+  margin:1rem;
+}
+}
