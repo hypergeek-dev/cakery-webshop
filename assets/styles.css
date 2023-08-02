@@ -242,13 +242,13 @@ border-top: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 2rem 0 6rem;
     width: 200px;
-    height: 250px;
+    height: 255px;
     overflow: hidden;
   }
   
   .polaroid img {
     width:80%;
-    height:80%;
+    height:75%;
   }
 
   .caption {
@@ -261,11 +261,7 @@ border-top: 1px solid #ccc;
     padding: 0 5px; 
   }
 
-  .price_tag {
-    height:100%;
-    width:50%;
-  }
-  
+ 
   @media screen and (min-width: 1201px) {
     .polaroid {
   
@@ -285,27 +281,40 @@ border-top: 1px solid #ccc;
       width: 100%; 
     }
   }
-  
-  .box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .caption_wrapper {
     width: 100%;
     height: 50%;
+    box-sizing: border-box;
 
 }
 
 .bottom_row {
     width: 100%;
-    height: 50%;
+    height: 30%;
     display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-.price_tag, .buy_button {
-    width: 50%;
-    height: 100%;
 
+.price_tag, .buy_button {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.buy_button {
+    background-color: #b52749;
+    color: #ffffff;
+    border-radius: 5px;;
+}
+
+.bottom_row p {
+    margin: 0;
+    padding-top:3px;
 }
