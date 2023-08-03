@@ -230,7 +230,7 @@ ul {
 .polaroid {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* aligns children elements at the start */
+    justify-content: flex-start; 
     align-items: center;
     border: 5px solid #f7f7f7;
     padding: 10px;
@@ -245,7 +245,7 @@ ul {
 
 .caption_wrapper {
     width: 100%;
-    height: 20vh; /* specify a height here */
+    height: 20vh; 
     padding-top:8vh;
 }
 
@@ -307,15 +307,50 @@ ul {
     margin-bottom: 20px;
 }
 
-.about-newsletter form {
-    display: flex;
-    flex-direction: column;
+.about-flex-item {
+    width: 30%;
+}
+
+.about-newsletter {
+    background-color: #f2e2d8; 
+    border-radius: 15px;
+    width:80vw;
+ margin:1rem 2rem;
+ padding:0.25rem;
+ 
+}
+
+.about-newsletter h2 {
+    color: #b52749; 
+
 }
 
 .about-newsletter input[type="email"] {
-    margin-bottom: 10px;
+    border: 1px solid #b52749;
+    border-radius: 15px;
 }
 
+.about-newsletter input[type="submit"] {
+    background-color: #b52749;
+    color: white;
+    border-radius: 15px;
+}
+
+.about-newsletter input[type="submit"]:hover {
+    background-color: #912033; 
+
+}
+
+
+.about-maps {
+    display: flex;
+    justify-content: center;
+}
+
+.about-slogan img {
+    width:50vw;
+
+}
 
 @media only screen and (min-width: 1200px) {
     .polaroid {
@@ -323,4 +358,26 @@ padding:1rem;
     
   margin:1rem;
 }
+}
+
+
+
+
+.about-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if necessary */
+}
+
+.about-flex-item {
+    width: 100%;
+    margin-bottom: 20px; /* Add some space between the items when they stack */
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-flex-item {
+        width: 45%;
+        margin-bottom: 0;
+    }
 }
