@@ -1,9 +1,7 @@
-/* =======  Global Styles ====== */
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dancing+Script&family=Happy+Monkey&family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dancing+Script&family=Happy+Monkey&family=Montserrat&display=swap');
 
-body,
-ul {
+body, ul {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -14,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: stretch;
+    align-items: stretch; 
 }
 
 header {
@@ -26,8 +24,73 @@ header {
     height: 14vh;
 }
 
-ul {
-    list-style-type: none;
+#shopping-cart {
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px;
+}
+
+#shopping-cart i {
+    font-size: 24px; 
+}
+
+header h1 {
+    margin-top:0;
+    font-size: 400%;
+    font-weight: 900;
+    font-size: 2.4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.top-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 1.5vh;
+    left: 2vw;
+    background-image: url("https://binarymonk.online/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 13vh;
+    height: 15vh;
+}
+
+.main {
+    max-height:80vh;
+}
+
+#mainListDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    padding: 1vh;
+}
+
+.navlinks li {
+    padding :5px;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(15px);
+}
+
+.navlink-item {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-small;
+    display: inline-block;
+}
+
+.navlink-item:hover {
+    text-shadow: 2px 2px 4px #000000;
 }
 
 hr {
@@ -37,23 +100,6 @@ hr {
     background-color: #999;
     box-shadow: 0px 1px 2px #888888;
 }
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #b52749;
-    padding: 0.1rem;
-}
-
-footer a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 0.5rem;
-}
-
-/* =======  Index Page Styles ====== */
 
 #hero {
     background-image: url("https://binarymonk.online/hero.jpg");
@@ -65,22 +111,21 @@ footer a {
 
 #slogan {
     display: grid;
-    place-items: center;
+    place-items: center; 
     font-family: 'Cookie', cursive;
-    font-size: x-large;
-    text-align: center;
+    font-size:x-large;
+    text-align: center; 
 }
 
 #slogan p {
-    margin: 0;
+    margin:0;
 }
 
 #half-divs {
     display: flex;
 }
 
-#left-div,
-#right-div {
+#left-div, #right-div {
     flex: 1;
     height: 20vh;
     padding: 0.5rem;
@@ -106,31 +151,87 @@ footer a {
 #right-div-img img {
     display: block;
     margin: 0 auto;
-    max-width: 80%;
-    width: auto;
+    max-width: 80%; 
+    width: auto; 
     height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
     padding: 5px;
 }
 
 #right-div-img p {
     margin: 0;
-    font-size: x-small;
+    font-size:x-small;
 }
 
-/* =======  Product Page Styles ====== */
+.main {
+    flex-grow: 1;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b52749;
+    padding: 0.1rem;
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    padding:0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(15px);
+}
+
+.dropdown .submenu a {
+    justify-content:center;
+    text-decoration: none;
+    display: block;
+    color: #333; 
+}
+
+.last_link{
+    border-top: 1px solid #ccc; 
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
 
 .cake-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .polaroid {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     border: 5px solid #f7f7f7;
     padding: 10px;
@@ -142,47 +243,53 @@ footer a {
     overflow: hidden;
 }
 
+
+
 .caption_wrapper {
-    flex-grow: 1;
-    width: 100%;
+
+    
+        flex-grow: 1; 
+        width: 100%;
+    
 }
 
-.caption p {
+.caption p{
     font-family: 'Cookie', cursive;
-    font-size: x-large;
+font-size:x-large;
+
 }
 
 .bottom_row p {
-    margin: 0.5rem;
-}
+    margin:0.5rem;
 
-.price_tag,
-.buy_button {
+}
+.price_tag, .buy_button {
     flex: 1;
     box-sizing: border-box;
-    height: 30px;
-    width: 30%;
+    height:30px;
+    width:30%;
 }
 
 .buy_button {
     background-color: #b52749;
     color: #ffffff;
-    border-radius: 5px;
-    transition: box-shadow 0.3s ease;
-}
-
-.buy_button:hover {
-    box-shadow: inset 0 0 5px #000000;
-    color: #000000;
-    font-weight: bold;
-}
+    border-radius: 5px;;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .buy_button:hover {
+        box-shadow: inset 0 0 5px #000000;
+        color:#000000;
+        font-weight: bold;
+    }
+    
 
 .polaroid img {
     max-width: 80%;
-    max-height: 80%;
-    margin-top: 5vh;
-}
+    max-height: 80%; 
+   margin-top:5vh;
 
+}
 .bottom_row {
     width: 100%;
     height: 5vh;
@@ -190,34 +297,16 @@ footer a {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;
+    margin-top: auto; 
     flex-shrink: 0;
 }
 
+
+
 .polaroid img {
     width: 80%;
-    height: 45%;
+    height: 45%; 
 }
-
-/* =======  About Page Styles ====== */
-
-.about-flex-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about-flex-item {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.about-flex-item.about-right {
-    order: 2;
-}
-
-/* =======  Contact Page Styles ====== */
-
 .contact-flex-container {
     display: flex;
     justify-content: space-between;
@@ -234,20 +323,24 @@ footer a {
     margin-bottom: 20px;
 }
 
-.contact-main {
-    margin: auto;
+.about-flex-item {
+    width: 30%;
 }
-
+.contact-main{
+    margin:auto;
+}
 .contact-newsletter {
-    background-color: #f2e2d8;
+    background-color: #f2e2d8; 
     border-radius: 15px;
-    width: 20vw;
-    margin: 1rem 1rem;
-    padding: 1rem;
+    width:20vw;
+ margin:1rem 1rem;
+ padding:1rem;
+ 
 }
 
 .contact-newsletter h2 {
-    color: #b52749;
+    color: #b52749; 
+
 }
 
 .contact-newsletter input[type="email"] {
@@ -262,8 +355,13 @@ footer a {
 }
 
 .contact-newsletter input[type="submit"]:hover {
-    background-color: #912033;
+    background-color: #912033; 
 }
+    .about-flex-item.about-right {
+        order: 2; 
+    }
+
+
 
 .contact-maps {
     display: flex;
@@ -271,32 +369,45 @@ footer a {
 }
 
 .contact-slogan img {
-    width: 35vw;
+    width:35vw;
+}
+    
+
+@media only screen and (min-width: 1200px) {
+    .polaroid {
+padding:1rem;
+    
+  margin:6rem;
+}
 }
 
 
-/* =======  Media Queries ====== */
 
-@media only screen and (max-width: 481px) {
-    #right_div_img img {
-        max-width: 80%;
-        width: 80%;
-        max-height: 150px;
-    }
+.about-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
 
-    #right_div_img p {
-        font-size: x-small;
-        padding-top: 0;
-        margin-top: 0;
+.about-flex-item {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+
+@media only screen and (min-width: 768px) {
+    .about-flex-item {
+        width: 45%;
+        margin-bottom: 0;
     }
 }
+
 
 @media only screen and (min-width: 481px) {
 
-    header h1 {
-        font-size: 400%;
+    header  h1
+    {
+        font-size:400%;
     }
-
     #slogan>p {
         font-size: 150%;
     }
@@ -321,11 +432,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .about-flex-item {
-        width: 45%;
-        margin-bottom: 0;
-    }
+@media only screen and (min-width: 769px) {
 
     header h1 {
         font-size: 400%;
@@ -334,7 +441,6 @@ footer a {
     #mainListDiv a {
         font-size: larger;
     }
-
     .navlink-item,
     .navlinks span {
         font-size: larger;
@@ -358,30 +464,32 @@ footer a {
     }
 }
 
+
 @media only screen and (min-width: 1201px) {
 
-    header h1 {
-        margin-top: 0;
-    }
 
+    header h1 {
+        margin-top:0;
+    }
     footer {
 
         padding: 0;
     }
+
 
     footer a {
 
         padding: 1rem;
     }
 
+
     .custom_icon {
         font-size: 200%
     }
-
-    #right_div_img {
-        margin-top: 0;
+    #right_div_img
+    {
+        margin-top:0;
     }
-
     #right_div_img img {
         max-height: 290px;
     }
@@ -390,26 +498,35 @@ footer a {
         margin-left: 10vw;
         font-size: 250%;
         max-width: 34vw;
-        margin-top: 0;
+        margin-top:0;
     }
 
 }
-
 @media only screen and (min-width: 1600px) {
-
-    .top-line h1 {
-        font-weight: bolder;
+    
+       .top-line h1{ font-weight:bolder;
     }
-
-    .contact {
-        padding: 0.5rem;
+    .contact
+    {
+        padding:0.5rem;
     }
-
     #slogan {
-        font-size: 200%;
+        font-size:200%;
+    }
+    #right_div_img 
+    {margin-top:0;}
+}
+
+@media only screen and (max-width: 480px) {
+    #right_div_img img {
+        max-width: 80%;
+        width: 80%;
+        max-height: 150px;  
     }
 
-    #right_div_img {
-        margin-top: 0;
-    }
+    #right_div_img p {
+        font-size: x-small;
+        padding-top:0;
+        margin-top:0;
+}
 }
