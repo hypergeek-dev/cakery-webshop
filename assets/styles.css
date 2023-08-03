@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Happy+Monkey&family=Montserrat&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dancing+Script&family=Happy+Monkey&family=Montserrat&display=swap');
 
 body, ul {
     margin: 0;
@@ -354,6 +355,9 @@ font-size:x-large;
 .about-newsletter input[type="submit"]:hover {
     background-color: #912033; 
 
+    .about-flex-item.about-right {
+        order: 2; 
+    }
 }
 
 
@@ -521,5 +525,7 @@ padding:1rem;
 
     #right_div_img p {
         font-size: x-small;
+        padding-top:0;
+        margin-top:0;
 }
 }
