@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dancing+Script&family=Happy+Monkey&family=Montserrat&display=swap');
 
-body, ul {
+body,
+ul {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: stretch; 
+    align-items: stretch;
 }
 
 header {
@@ -49,7 +50,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #ffffff;
-    padding:0.5rem;
+    padding: 0.5rem;
 }
 
 /* =======  Index Page Styles ====== */
@@ -64,21 +65,22 @@ footer a {
 
 #slogan {
     display: grid;
-    place-items: center; 
+    place-items: center;
     font-family: 'Cookie', cursive;
-    font-size:x-large;
-    text-align: center; 
+    font-size: x-large;
+    text-align: center;
 }
 
 #slogan p {
-    margin:0;
+    margin: 0;
 }
 
 #half-divs {
     display: flex;
 }
 
-#left-div, #right-div {
+#left-div,
+#right-div {
     flex: 1;
     height: 20vh;
     padding: 0.5rem;
@@ -104,17 +106,17 @@ footer a {
 #right-div-img img {
     display: block;
     margin: 0 auto;
-    max-width: 80%; 
-    width: auto; 
+    max-width: 80%;
+    width: auto;
     height: auto;
-    border: 1px solid #ddd; 
-    border-radius: 4px;  
+    border: 1px solid #ddd;
+    border-radius: 4px;
     padding: 5px;
 }
 
 #right-div-img p {
     margin: 0;
-    font-size:x-small;
+    font-size: x-small;
 }
 
 /* =======  Product Page Styles ====== */
@@ -122,13 +124,13 @@ footer a {
 .cake-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .polaroid {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     border: 5px solid #f7f7f7;
     padding: 10px;
@@ -141,24 +143,25 @@ footer a {
 }
 
 .caption_wrapper {
-    flex-grow: 1; 
+    flex-grow: 1;
     width: 100%;
 }
 
-.caption p{
+.caption p {
     font-family: 'Cookie', cursive;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 .bottom_row p {
-    margin:0.5rem;
+    margin: 0.5rem;
 }
 
-.price_tag, .buy_button {
+.price_tag,
+.buy_button {
     flex: 1;
     box-sizing: border-box;
-    height:30px;
-    width:30%;
+    height: 30px;
+    width: 30%;
 }
 
 .buy_button {
@@ -170,14 +173,14 @@ footer a {
 
 .buy_button:hover {
     box-shadow: inset 0 0 5px #000000;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
 }
 
 .polaroid img {
     max-width: 80%;
-    max-height: 80%; 
-    margin-top:5vh;
+    max-height: 80%;
+    margin-top: 5vh;
 }
 
 .bottom_row {
@@ -187,13 +190,13 @@ footer a {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto; 
+    margin-top: auto;
     flex-shrink: 0;
 }
 
 .polaroid img {
     width: 80%;
-    height: 45%; 
+    height: 45%;
 }
 
 /* =======  About Page Styles ====== */
@@ -201,16 +204,16 @@ footer a {
 .about-flex-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .about-flex-item {
     width: 100%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .about-flex-item.about-right {
-    order: 2; 
+    order: 2;
 }
 
 /* =======  Contact Page Styles ====== */
@@ -231,20 +234,20 @@ footer a {
     margin-bottom: 20px;
 }
 
-.contact-main{
-    margin:auto;
+.contact-main {
+    margin: auto;
 }
 
 .contact-newsletter {
-    background-color: #f2e2d8; 
+    background-color: #f2e2d8;
     border-radius: 15px;
-    width:20vw;
-    margin:1rem 1rem;
-    padding:1rem;
+    width: 20vw;
+    margin: 1rem 1rem;
+    padding: 1rem;
 }
 
 .contact-newsletter h2 {
-    color: #b52749; 
+    color: #b52749;
 }
 
 .contact-newsletter input[type="email"] {
@@ -259,7 +262,7 @@ footer a {
 }
 
 .contact-newsletter input[type="submit"]:hover {
-    background-color: #912033; 
+    background-color: #912033;
 }
 
 .contact-maps {
@@ -268,7 +271,7 @@ footer a {
 }
 
 .contact-slogan img {
-    width:35vw;
+    width: 35vw;
 }
 
 
@@ -278,22 +281,22 @@ footer a {
     #right_div_img img {
         max-width: 80%;
         width: 80%;
-        max-height: 150px;  
+        max-height: 150px;
     }
 
     #right_div_img p {
         font-size: x-small;
-        padding-top:0;
-        margin-top:0;
+        padding-top: 0;
+        margin-top: 0;
     }
 }
 
 @media only screen and (min-width: 481px) {
 
-    header  h1
-    {
-        font-size:400%;
+    header h1 {
+        font-size: 400%;
     }
+
     #slogan>p {
         font-size: 150%;
     }
@@ -331,6 +334,7 @@ footer a {
     #mainListDiv a {
         font-size: larger;
     }
+
     .navlink-item,
     .navlinks span {
         font-size: larger;
@@ -357,8 +361,9 @@ footer a {
 @media only screen and (min-width: 1201px) {
 
     header h1 {
-        margin-top:0;
+        margin-top: 0;
     }
+
     footer {
 
         padding: 0;
@@ -372,10 +377,11 @@ footer a {
     .custom_icon {
         font-size: 200%
     }
-    #right_div_img
-    {
-        margin-top:0;
+
+    #right_div_img {
+        margin-top: 0;
     }
+
     #right_div_img img {
         max-height: 290px;
     }
@@ -384,25 +390,26 @@ footer a {
         margin-left: 10vw;
         font-size: 250%;
         max-width: 34vw;
-        margin-top:0;
+        margin-top: 0;
     }
 
 }
 
 @media only screen and (min-width: 1600px) {
-    
-    .top-line h1{ 
-        font-weight:bolder;
+
+    .top-line h1 {
+        font-weight: bolder;
     }
-    .contact
-    {
-        padding:0.5rem;
+
+    .contact {
+        padding: 0.5rem;
     }
+
     #slogan {
-        font-size:200%;
+        font-size: 200%;
     }
-    #right_div_img 
-    {
-        margin-top:0;
+
+    #right_div_img {
+        margin-top: 0;
     }
 }
