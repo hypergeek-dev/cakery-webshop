@@ -25,7 +25,7 @@ header {
  
     width: 50px;
     height: 50px;
-    background-image: url('path/to/your/logo.png'); /* replace with the path to your logo */
+    background-image: url('https/www.binaryhamster/logo.png'); 
     background-size: cover;
     margin-right: 20px; 
 }
@@ -381,26 +381,25 @@ ul {
 }
 
 /* Contact-page */
-
-.contact-flex-container {
+.contact-main{
     display: flex;
-    justify-content: space-between;
-
+ text-align: center;
 }
-
-.contact-flex-item {
+.contact-left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 45%;
-    height: 100%;
-}
+    align-items:center;
+    width:100%;
+    height:100%;
 
+}
 
 .news-letter-wrapper {
     position: relative;
-    flex-grow: 1;
+    bottom:3vh;
+    width:100%;
+
 }
 
 .news-letter {
@@ -409,9 +408,7 @@ ul {
     display: block;
     max-width: 480px;
     overflow: hidden;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
     padding: 2em;
     position: absolute;
     top: 50%;
@@ -420,25 +417,30 @@ ul {
     width: 98%;
 }
 
-
-@-webkit-keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+.slogan {
+    width: 100%;
+    height: 25%;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:100%;
+}
 
-    to {
-        transform: rotate(360deg);
-    }
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.contact-right  img{
+    width:50%;
+
 }
 
 h1 {
@@ -448,30 +450,15 @@ h1 {
     font-family: 'Cookie', cursive;
 }
 
-.contact-flex-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.contact-main .contact-flex-item {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    height: 100%;
-}
-
-.contact-main .contact-flex-item div {
+.contact-main
+{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
-    flex: 1;
+    flex: 1;  
 }
-
 .contact-newsletter h2 {
     color: #b52749;
 
@@ -492,8 +479,6 @@ h1 {
     background-color: #912033;
 }
 
-
-
 .text-center {
     text-align: center;
 }
@@ -505,7 +490,7 @@ h1 {
 }
 
 .contact-slogan img {
-    width: 35vw;
+    width: 100%;
 }
 
 
@@ -582,10 +567,17 @@ h1 {
         font-size: 175%;
     }
 
-    .about-flex-item {
-        width: 45%;
-        margin-bottom: 0;
+    .contact-main{
+        display: flex;
+        flex-direction: row;
     }
+    .contact-left,
+    .contact-right{
+        width:50%;
+        height:100%;
+}
+
+
 }
 
 @media only screen and (min-width: 481px) {
@@ -613,31 +605,9 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    #right_div_img img {
-        max-width: 80%;
-        width: 80%;
-        max-height: 150px;
-    }
 
-    #right_div_img p {
-        font-size: x-small;
-        padding-top: 0;
-        margin-top: 0;
-    }
 }
 
-
-
-@media (min-width: 768px) {
-    .contact-main {
-        flex-direction: row;
-    }
-
-    .contact-flex-item {
-        width: 45%;
-    }
-}
 
 @media only screen and (min-width: 1600px) {
 
