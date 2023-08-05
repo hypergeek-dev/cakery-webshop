@@ -155,7 +155,7 @@ hr {
  
 }
 
-#right-div-img img {
+#right_div_img img {
     display: block;
     margin: 0 auto;
     max-width: 40%;
@@ -163,11 +163,13 @@ hr {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+    max-height: 30vh;
 }
 
-#right-div-img p {
+#right_div_img p {
     margin: 0;
     font-size: x-small;
+    text-align: center;
 }
 
 .main {
@@ -430,7 +432,7 @@ ul {
 
 
 .contact-right  img{
-    width:50%;
+  width: 20%
 
 }
 
