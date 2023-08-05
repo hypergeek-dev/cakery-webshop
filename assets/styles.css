@@ -118,10 +118,12 @@ hr {
     font-family: 'Cookie', cursive;
     font-size: x-large;
     text-align: center;
+    
 }
 
 #slogan p {
     margin: 0;
+
 }
 
 #half-divs {
@@ -133,7 +135,7 @@ hr {
     flex: 1;
     height: 20vh;
     padding: 0.5rem;
-    flex-wrap: nowrap;
+
 }
 
 #left-div p {
@@ -150,14 +152,14 @@ hr {
     display: inline-block;
     text-align: center;
     margin: 1rem;
+ 
 }
 
 #right-div-img img {
     display: block;
     margin: 0 auto;
-    max-width: 80%;
-    width: auto;
-    height: auto;
+    max-width: 40%;
+    width:40%;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
