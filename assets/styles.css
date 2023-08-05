@@ -22,14 +22,6 @@ header {
     padding: 10px;
 }
 
-#logo {
- 
-    width: 50px;
-    height: 50px;
-    background-image: url('https/www.binaryhamster/logo.png'); 
-    background-size: cover;
-    margin-right: 20px; 
-}
 
 #shopping-cart {
     position: absolute;
@@ -113,7 +105,7 @@ hr {
 }
 
 #hero {
-    background-image: url("https://binarymonk.online/hero.jpg");
+    background-image: url("https://binarymonk.online/hero_cake.webp");
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,6 +173,7 @@ hr {
 }
 
 footer {
+    
     position: fixed;
     left: 0;
     bottom: 0;
@@ -188,31 +181,29 @@ footer {
     background-color: #b52749;
     justify-content: center;
     height: 5vh;
-
+    
 }
 
 
 .socialmedia {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    height:100%
+    height:100%;
+    width:100%;
 
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem;
 }
-footer i {
-    font-size: 1.5em; 
+ i {
+    font-size: 2em; 
+    
 }
-.icon {
-    color: black; /* Or whatever color you want */
-    font-size: 20px; /* Adjust as needed */
-    display: inline-block !important; /* Force display */
-  }
+
   
 ul {
     list-style-type: none;
@@ -286,11 +277,6 @@ ul {
 
 }
 
-.bottom_row p {
-    margin: 0.5rem;
-
-}
-
 .price_tag,
 .buy_button {
     flex: 1;
@@ -332,6 +318,12 @@ ul {
     margin-top: auto;
     flex-shrink: 0;
 }
+
+.bottom_row p {
+    margin: 0.5rem;
+
+}
+
 
 /* About page */
 
@@ -491,10 +483,6 @@ h1 {
     width: 100%;
 }
 
-
-
-
-
 @media only screen and (min-width: 1600px) {
 
     .top-line h1 {
@@ -526,12 +514,6 @@ h1 {
     header h1 {
         margin-top: 0;
     }
-
-    footer {
-
-        padding: 0;
-    }
-
 
     .custom_icon {
         font-size: 200%
@@ -619,7 +601,6 @@ h1 {
         flex-direction: column;
     }
     }
-
 
 
 @media only screen and (min-width: 481px) {
