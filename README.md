@@ -42,5 +42,10 @@ All pages has been checked on https://validator.w3.org/
 ### Result
 Document checking completed. No errors or warnings to show.
 
-## Attribution
+### Attribution
 I would like to acknowledge and thank Vecteezy.com for the use of their free graphics.
+
+### License
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, share, and adapt this work, subject to the conditions of the license. Please provide appropriate attribution to the original creator.
+
+
