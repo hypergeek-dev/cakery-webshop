@@ -26,17 +26,17 @@ Wireframes have been created and used during the design process to establish the
 
 Home Page | About Page
 --- | ---
-<img src="https://www.binarymonk.online/wireframes/desktop_home.png" width="400"> | <img src="https://www.binarymonk.online/wireframes/desktop_about.png" width="400">
+<img src="https://www.binarymonk.online/Wireframes/desktop_home.png" width="400"> | <img src="https://www.binarymonk.online/Wireframes/desktop_about.png" width="400">
 
 Products Page | Contact Page
 --- | ---
-<img src="https://www.binarymonk.online/wireframes/desktop_products.png" width="400"> | <img src="https://www.binarymonk.online/wireframes/desktop_contact.png" width="400">
+<img src="https://www.binarymonk.online/Wireframes/desktop_products.png" width="400"> | <img src="https://www.binarymonk.online/Wireframes/desktop_contact.png" width="400">
 
 #### Mobile Wireframes
 
 Home Page | About Page | Products Page | Contact Page
 --- | --- | --- | ---
-<img src="https://www.binarymonk.online/wireframes/mobile_home.png" width="150"> | <img src="https://www.binarymonk.online/wireframes/mobile_about.png" width="150"> | <img src="https://www.binarymonk.online/wireframes/mobile_products.png" width="150"> | <img src="https://www.binarymonk.online/wireframes/mobile_contact.png" width="150">
+<img src="https://www.binarymonk.online/Wireframes/mobile_home.png" width="150"> | <img src="https://www.binarymonk.online/Wireframes/mobile_about.png" width="150"> | <img src="https://www.binarymonk.online/Wireframes/mobile_products.png" width="150"> | <img src="https://www.binarymonk.online/Wireframes/mobile_contact.png" width="150">
 
 ## Testing
 All pages has been checked on https://validator.w3.org/
