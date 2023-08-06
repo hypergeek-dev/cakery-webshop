@@ -42,5 +42,5 @@ All pages has been checked on https://validator.w3.org/
 ### Result
 Document checking completed. No errors or warnings to show.
 
-*** Attribution
+### Attribution
 I would like to acknowledge and thank Vecteezy.com for the use of their free graphics.
