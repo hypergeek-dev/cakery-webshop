@@ -594,6 +594,11 @@ h1 {
         height:100%;
      
     }
+   .about-left div,
+    .about-right div {
+        margin-top: 10vh;
+    }
+
     .about-right{
             display: flex;
             flex-direction: column;
@@ -608,7 +613,6 @@ h1 {
         flex-direction: column;
     }
     }
-
 
 @media only screen and (min-width: 481px) {
 
