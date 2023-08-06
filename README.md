@@ -42,10 +42,13 @@ All pages has been checked on https://validator.w3.org/
 ### Result
 Document checking completed. No errors or warnings to show.
 
-### Attribution
+### Lighthouse
+<img src="https://www.binarymonk.online/lighthouse.jpg">
+The slight drop in performance results can be attributed to the images on the hero section and the logo. However, there is a plan to address and remedy this issue. 
+
+## Attribution
 I would like to acknowledge and thank Vecteezy.com for the use of their free graphics.
 
 ### License
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, share, and adapt this work, subject to the conditions of the license. Please provide appropriate attribution to the original creator.
-
 
